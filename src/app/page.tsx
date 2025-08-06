@@ -1,7 +1,9 @@
-export default function Home() {
+import { Button } from '@/shared/ui';
+
+export default function HomePage() {
   return (
-    <main className="flex h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">🎮 Next Games</h1>
+    <main className="flex min-h-screen items-center justify-center">
+      <Button variant="default">Начать игру</Button>
     </main>
   );
 }
